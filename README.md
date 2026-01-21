@@ -37,7 +37,6 @@ create printArray that takes array as parameter{
 (not going to use this for this project--> string scan format (valuesHolder, "point to decimal x9", & value1-9))
     print (" point to string next line", valuesHolder)
 
-    return 0
 }end printArray function
 
 
@@ -46,7 +45,6 @@ create swap function that takes two addresses of values {
     *x = *y (value at x gets value at y)
     *y = tempHolder (value at y gets value at tempHolder)
 
-    return address of x and address of y
 }end swap function
 
 
@@ -58,6 +56,5 @@ create sort function that takes array as parameter{
             if values[j] > values[j+1]:
                 swap values[j] with values[j+1]     --> (&values[j] and &values[j+1])
                 printArray(values)
-    return values
 }end sort function
 ```
