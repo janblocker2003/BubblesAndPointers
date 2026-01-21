@@ -26,15 +26,10 @@ int main(){
 
 
 void printValues (int* values){
-	for (int i = 0; i<10; i++) {
+	for (int i = 0; i<9; i++) {
 		printf("%d ", values[i]);
 	}
 	printf(" \n");
 	return;
 } //end printValues
 
-//Before: 
-//7 3 9 4 6 1 2 8 5 32766  
-//x: 3, y: 5 
-//7 3 9 4 6 1 2 8 5 32766  
-//WHAT THE CODE IS MAKING CURRENTLY
